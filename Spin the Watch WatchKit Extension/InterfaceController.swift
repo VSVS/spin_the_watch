@@ -18,9 +18,17 @@ class InterfaceController: WKInterfaceController {
     
     @IBAction func buttonPressed() {
         
+        var randomNumber = arc4random_uniform(2)
         
+        if randomNumber == 0 {
+            nameLabel.setText("heads")
+        } else {
+            nameLabel.setText("tails")
+        }
         
-        nameLabel.setText("My app is working!")
+        println(randomNumber)
+        
+        //nameLabel.setText("My app is working!")
         
     }
     
@@ -29,8 +37,6 @@ class InterfaceController: WKInterfaceController {
         super.awakeWithContext(context)
         
         println("My app is working!")
-        
-        
         
     }
     

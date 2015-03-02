@@ -10,13 +10,57 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Spin the Watch WatchKit Extension/InterfaceController.swift"
-            timestampString = "446963759.297407"
+            timestampString = "446964779.300817"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
             landmarkName = "InterfaceController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Spin_the_Watch_WatchKit_Extension.InterfaceController.nameLabel.setter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.WKInterfaceLabel&gt;"
+                  moduleName = "Spin the Watch WatchKit Extension"
+                  urlString = "file:///Users/vsvs/Documents/spin-the-watch/swk/Spin%20the%20Watch%20WatchKit%20Extension/InterfaceController.swift"
+                  timestampString = "446964855.52041"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Spin_the_Watch_WatchKit_Extension.InterfaceController.nameLabel.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.WKInterfaceLabel&gt;"
+                  moduleName = "Spin the Watch WatchKit Extension"
+                  urlString = "file:///Users/vsvs/Documents/spin-the-watch/swk/Spin%20the%20Watch%20WatchKit%20Extension/InterfaceController.swift"
+                  timestampString = "446964855.520632"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Spin_the_Watch_WatchKit_Extension.InterfaceController.init (Spin_the_Watch_WatchKit_Extension.InterfaceController.Type)() -&gt; Swift.ImplicitlyUnwrappedOptional&lt;Spin_the_Watch_WatchKit_Extension.InterfaceController&gt;"
+                  moduleName = "Spin the Watch WatchKit Extension"
+                  urlString = "file:///Users/vsvs/Documents/spin-the-watch/swk/Spin%20the%20Watch%20WatchKit%20Extension/InterfaceController.swift"
+                  timestampString = "446964855.520876"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
