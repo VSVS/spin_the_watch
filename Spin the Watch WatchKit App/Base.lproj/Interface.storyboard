@@ -10,16 +10,20 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Spin_the_Watch_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label width="1" alignment="left" alpha="0.49999999999999961" text="iDevelop.nyc" textAlignment="center" lineHeight="1" minimumScaleFactor="0.50000000000000011" id="RVe-hD-Zre">
+                        <label width="1" alignment="left" alpha="0.49999999999999961" textAlignment="center" lineHeight="1" minimumScaleFactor="0.50000000000000011" id="RVe-hD-Zre">
                             <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                         </label>
                         <button width="1" alignment="center" title="Spin!" id="qOs-RH-Ao4">
                             <color key="titleColor" red="0.93292448110000004" green="1" blue="0.97334540140000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="buttonPressed" destination="AgC-eL-Hgc" id="NYk-Lf-3kw"/>
+                            </connections>
                         </button>
-                        <switch width="1" alignment="left" verticalAlignment="center" value="YES" title="Switch" id="Dzi-wh-r69"/>
-                        <slider width="1" alignment="left" value="5" maximum="5" steps="5" id="Awe-hc-6Gx"/>
                     </items>
-                    <color key="backgroundColor" red="1" green="0.37119095568497162" blue="0.33426321481765542" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.48567860835457444" green="0.63977802020275965" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="RVe-hD-Zre" id="AsF-ie-ny6"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="314" y="319"/>
